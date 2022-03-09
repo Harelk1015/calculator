@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+  <body>
+    <main>
+      <div class="left">
+        <div class="left__bill">
+          <h2>Bill</h2>
+          <input placeholder="0" type="text" />
+        </div>
+        <div class="left__presentSelector">
+          <h2>Select Tip %</h2>
+          <div class="left__presentSelector__grid">
+            <button>5%</button>
+            <button>10%</button>
+            <button>15%</button>
+            <button>25%</button>
+            <button>50%</button>
+            <input placeholder="Custom" type="text" />
+          </div>
+        </div>
+        <div class="left__numberOfPeople">
+          <h2>Number of people</h2>
+          <input type="text" placeholder="0" />
+        </div>
+      </div>
+      <div class="right">
+        <div class="right__tip">
+          <div class="right__tip__text">
+            <h2>Tip Amount</h2>
+            <p>/ person</p>
+          </div>
+          <h1>$0.00</h1>
+        </div>
+        <div class="right__total">
+          <div class="right__total__text">
+            <h2>Total</h2>
+            <p>/ person</p>
+          </div>
+          <h1>$0.00</h1>
+        </div>
+        <button>RESET</button>
+      </div>
+    </main>
+  </body>
+</html>
